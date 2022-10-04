@@ -18,7 +18,7 @@ Here Load testing  is performed using [RandomUser API](https://demoqa.com/BookSt
 ### Load Testing HTML Summary Report
   ![Load testing Report](https://user-images.githubusercontent.com/85132422/193652367-31839eb7-bf98-4443-8713-f2444278ce2f.PNG)
 ## Stress Test Scenario
-Here Load testing  is performed using [RandomUser API](https://demoqa.com/BookStore/v1/Books) where the starting load is 10000 per hour. Severall tests has been performed for 60s,300s,600s and 900s load using Jmeter. The tests having TPS breakdown are summarized in excel spreadsheet and HTML report for the last test of 900s having 66000 users where 1% error is found.which is the bottleneck TPS/Stress test point.
+Here Stress testing  is performed using [RandomUser API](https://demoqa.com/BookStore/v1/Books) where the starting load is 10000 per hour. Severall tests has been performed for 60s,300s,600s and 900s load using Jmeter.After 900s,when we got no error, we keep on increasing users until we got 1% error and 99% success rate.The tests having TPS breakdown are summarized in excel spreadsheet and HTML report for the last test of 900s having 66000 users where 1% error is found.which is the bottleneck TPS/Stress test point.
 ### Stress Testing TPS and Test Breakdown
   ![Stress test](https://user-images.githubusercontent.com/85132422/193652471-4b141cef-56e2-43b9-a893-26e703609dc5.PNG)
 
